@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.loglist{
+    display: flex;
+    height: 18px;
+    justify-content: end;
+ justify-content: space-evenly;
+ background-color: black;
+ right: 25%;
+ color: blanchedalmond;
+ width: auto;
+ 
+}
+
+.menu {
+
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    background-image: url('./bg-wool-dark.png'); 
+height: 120px;
+width: 100%;
+color: rgb(255, 255, 255);
+justify-content: center;
+
+}
+.inmenu{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#God{
+    width: 250px;
+    height: 50px;
+
+}
+.smoke{
+    font-size: xx-large;
+}
+.weed{
+    display: flex;
+}
+.welcome{
+
+    height: 600px;
+
+    background-image: url('./home-hero-1200x600.jpg');
+width:1200px;
+
+}
+.wellcome{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.explore{
+  background-image: url('./bg-wool-dark.png');
+    display: flex;
+    justify-content: center;
+    
+}
+.assplore{
+    display: flex;
+margin: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 600px;
+justify-content: center;
+}
+
+.container{
+
+
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.assplore :first-child{
+    display: flex;
+  
+    
+}
+.s{
+    display: flex;
+}
