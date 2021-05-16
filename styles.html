@@ -1,67 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" />
 
-    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="loglist">
-      <div>log in</div>
-      <div>redeem</div>
-    </div>
-    <div class="menu">
-      <div class="container">
+<head>
+  <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="loglist">
+    <div>log in</div>
+    <div>redeem</div>
+  </div>
+  <div class="menu">
+    <div class="container">
+      <nav class="nav__main">
         <div><img src="logo.png" alt="" id="God" /></div>
+        <div class="burger-menu" onclick="dropDown(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
         <div class="inmenu">
-          <div class="weed">
+          <button class="weed">
             <div class="smoke">🌱</div>
             games
-          </div>
-          <div class="weed">
+          </button>
+          <button class="weed">
             <div class="smoke">🧑‍🤝‍🧑</div>
             community
-          </div>
-          <div class="weed">
+          </button>
+          <button class="weed">
             <div class="smoke">🗝️</div>
             merch
-          </div>
-          <div class="weed">
+          </button>
+          <button class="weed">
             <div class="smoke">🛌</div>
             support
-          </div>
+          </button>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+  <div class="wellcome">
+    <div class="welcome">
+      <span>
+        <p>Wellcome to Minecraft</p>
+      </span>
+      <h1 class="home-title">
+        <span>With new games, new updates, and new ways to play, join one of the</span>
+        <span> biggest communities in gaming and start crafting today!</span>
+      </h1>
+      <button id="error" class="weed">get Minecraft</button>
+    </div>
+  </div>
+
+  <div class="explore">
+    <div class="polishman">
+      <div class="come">Explore Minecraft games</div>
+
+
+      <div class="slider">
+        <input type="button" value="<" class="left" id="button">
+        <li><img src="1.jpg" alt="" class="slide__img"></li>
+        <input type="button" value=">" class="right" id="button">
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <div>
+
+    <div class="topbackground">
+      <div class="top2background"></div>
+    </div>
+
+    <div class="bottombackground">
+      <div class="newspictures">
+        <img src="HTTYD_SplashArt_NetHomepage_600x360.jpeg" alt="" width="475" height="285">
+        <div class="center">
+          <div class="bigtext" style="font-size: xx-large;">Train your dragons!</div>
+          <div class="smalltext">This is Berk, home of Vikings and dragons! Join Toothless, Hiccup, and the rest of the
+            dragons and riders on heroic adventures in Minecraft.</div>
+          <button class="weed">→ learn more</button>
         </div>
       </div>
-    </div>
-    <div class="wellcome">
-      <div class="welcome">
-        <div>Welcome to Minecraft</div>
-        <div>
-          With new games, new updates, and new ways to play, join one of the
-          biggest communities in gaming and start crafting today!
-        </div>
-        <button>get Minecraft</button>
-      </div>
-    </div>
 
-    <div class="explore">
-      <div class="assplore">
-        <div>Explore Minecraft games</div>
-        <div class="s">
-          <div><img src="" alt=""></div>
-          <div><img src="4.jpg" alt=""></div>
-          <div><img src="3.jpg" alt=""></div>
-          <div><img src="2.jpg" alt=""></div>
-          <div><img src="1.jpg" alt=""></div>
+
+      <div class="newspictures">
+        <img src="home-mediablock-realmsplus.jpg" alt="" width="475" height="285">
+        <div class="center">
+          <div class="bigtext" style="font-size: xx-large;">Realms Plus is available now</div>
+          <div class="smalltext">Get instant access to over 100 Marketplace items with new additions each month. Share
+            with friends on your own private Realms server.</div>
+          <button class="weed">→ learn more</button>
         </div>
       </div>
+
+
+      <div class="newspictures">
+        <img src="MCD_FlamesOfTheNether_.Net_HomepagePromo_600x360.jpeg" alt="" width="475" height="285">
+        <div class="center">
+          <div class="bigtext" style="font-size: xx-large;">Playing with fire</div>
+          <div>Minecraft Dungeons brings the heat to the Nether with the most ambitious DLC so far.</div>
+          <button class="weed">→ learn more</button>
+        </div>
+
+
+      </div>
+
+
+
+
+
     </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="hierophantgreen"></div>
+  <div class="starplatinum"></div>
+
+
+  <div class="prelastpart">
+    <h1>Community Creations</h1>
+    <h3>Discover the best add-ons, mods, and more being built by the incredible Minecraft community!</h3>
+    <button class="weed">→ Explore</button>
+  </div>
+
+ </div>
 
 
 
@@ -74,8 +156,41 @@
 
 
 
+  <script>
+    /* этот код помечает картинки, для удобства разработки */
+    let i = 1;
+    for (let li of carousel.querySelectorAll('li')) {
+      li.style.position = 'relative';
+      li.insertAdjacentHTML('beforeend', `<span style="position:absolute;left:0;top:0">${i}</span>`);
+      i++;
+    }
 
-<!-- 
+    /* конфигурация */
+    let width = 130; // ширина картинки
+    let count = 3; // видимое количество изображений
+
+    let list = carousel.querySelector('ul');
+    let listElems = carousel.querySelectorAll('li');
+
+    let position = 0; // положение ленты прокрутки
+
+    carousel.querySelector('.prev').onclick = function () {
+      // сдвиг влево
+      position += width * count;
+      // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+      position = Math.min(position, 0)
+      list.style.marginLeft = position + 'px';
+    };
+
+    carousel.querySelector('.next').onclick = function () {
+      // сдвиг вправо
+      position -= width * count;
+      // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+      position = Math.max(position, -width * (listElems.length - count));
+      list.style.marginLeft = position + 'px';
+    };
+  </script>
+  <!-- 
     <script src="./jquery-3.6.0.js"></script>
     <script src="./jquery-migrate-1.4.1.js"></script>
     <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
@@ -83,16 +198,20 @@
 
     <script type="text/javascript">
     -->
-<!-- // $('.s').slick({
+  <!-- // $('.s').slick({
 //   infinite: true,
 //   slidesToShow: 3,
 //   slidesToScroll: 4
 // }); -->
-      
-    </script>
-    <script>
-      AOS.init();
-    </script>
-        <script src="loppol.js"></script>
-  </body>
+
+
+
+
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="loppol.js"></script>
+</body>
+
 </html>
